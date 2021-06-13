@@ -14,9 +14,10 @@ The first driver I create for pine64, derived from the ADAFRUIT driver itself
 This is from the pine64 POT wiki, not my own work but crucial for the i2cServo to work
 
 ### Instructions:
-sudo apt-get install python-smbus i2c-tools
-sudo adduser username i2c
-  *not sure if you need the group but i noticed no sudo needed to run i2c after added to group
+    sudo apt-get install python-smbus i2c-tools
+    
+    sudo adduser username i2c
+        *not sure if you need the group but i noticed no sudo needed to run i2c after added to group
 
 ### NOTE:
     To be able to use the I2C on the pine you need to download
